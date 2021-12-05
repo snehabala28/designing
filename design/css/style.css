@@ -1,0 +1,241 @@
+
+body {
+			margin: 0;
+			padding: 0;
+		}
+		
+			.header {
+    float: left;
+    width: 100%;
+    padding: 30px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+    background-color: rgba(0,0,0,0.5);
+}
+			
+		
+		.logo{
+         float: left;
+          width: 20%;
+          padding-top: 10px;
+          text-align: right;
+       
+         
+
+		}
+		.menu{
+			float: left;
+			width:80%;
+			text-align: right;  
+		}
+		.menu ul {
+		  list-style: none;
+
+
+		}
+		.menu li{
+			display: inline-block;
+			
+			font-size: 21px;
+			font-family: 'Poppins', sans-serif;
+			 position: relative;
+		
+		}
+		.menu ul li a.h{
+			
+		}
+		.menu ul li a{
+			 text-decoration: none; 
+			 color: white;
+			 text-align: center;
+			 padding-right: 20px;
+			padding-left: 12px;
+			 
+		}
+		.menu ul li a.list{
+			background-color: #ff6600;
+			font-size: 21px;
+			padding-left: 25px;
+			padding-bottom:20px;
+			padding-top:20px;
+			padding-right: 25px; 
+			color: white;
+			margin-right: 80px;
+
+			font-family: 'Poppins', sans-serif;
+
+		}
+		.menu li a:hover{
+			color: yellow;
+		}
+		
+		.banner-content a.list2{
+			background-color: #FF4500;
+			padding: 20px 35px;
+			font-size: 21px;
+			color: white;
+			text-decoration: none;
+			font-family: 'Poppins', sans-serif;
+
+			}
+			.banner-content a.list2:hover{
+				background-color: white;
+				color: black;
+			}
+		
+		
+		.menu ul li a.list:hover{
+			background-color: white;
+			color: black;
+		}
+		
+		.banner
+		{
+			position: relative;
+			float: left;
+			width: 100%;
+			height: 100%;
+
+		}
+		.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    width: 470px;
+    max-width: 100%;
+}
+		.banner-content h4{
+             font-size: 20px;
+             margin: 0;
+             margin-top:30px;
+             font-family: 'Poppins', sans-serif;
+             
+		}
+		.banner-content h2 {
+			    font-size: 45px;
+			    margin: 0;
+			    font-family: 'Poppins', sans-serif;
+			    padding-top: 0;
+			    text-align: center;
+			    line-height: 1.2;
+			}
+		.banner-content p{
+			padding-bottom: 30px;
+			font-family: 'Poppins', sans-serif;
+		}
+		.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+}
+ul.sub-menu {
+    padding: 0;
+    position: absolute;
+    background: #fff;
+    display: none;
+    border-top: 5px solid #f60;
+    top: 39px;
+    width: 216px;
+    text-align: left;
+}
+ul.sub-menu li {
+    display: block;
+
+}
+ul.sub-menu li a
+{
+	color: #000;
+	font-size: 16px;
+	padding: 7px 10px;
+}
+.menu ul li:hover ul.sub-menu
+{
+	display: block;
+	
+}
+.our-services {
+    background-color: #e7e7e7;
+    padding: 30px 0;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.our-services span {
+    text-align: center;
+    background-color: #ffefec;
+    color: #000;
+    border-radius: 7px;
+    padding: 8px 17px;
+}
+.our-services h1 {
+    font-size: 47px;
+    font-style: italic;
+    margin: 21px 0 30px 0;
+}
+.container{
+  float: left;
+  width: 100%;
+}
+.box {
+    float: left;
+    width: 26.60%;
+    background: white;
+    padding: 30px;
+    margin: 0 15px;
+    position: relative;
+}
+   .box h5 {
+    margin: 0 0;
+    font-size: 28px;
+}
+.box:hover h5 {
+   color: #ff6600;
+}
+.box p {
+    color: gray;
+}
+.box a{
+	color:#ff6600;
+	text-decoration: none;
+}
+.box::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: red;
+    height: 5px;
+    right: 0;
+    width: 0;
+    transition: .4s ease-in-out;
+}
+.box:hover::before
+{
+	width: 100%;
+	transition: .4s ease-in-out;
+}
+.box::after {
+    content: "";
+    position: absolute;
+    top: : 0;
+    left: 0;
+    background: red;
+    height: 0;
+    width: 5px;
+    bottom: 0;
+    transition: .4s ease-in-out;
+}
+.box:hover::after
+{
+	height: 100%;
+	transition: .4s ease-in-out;
+}
